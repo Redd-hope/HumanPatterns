@@ -1,0 +1,12 @@
+imutils==0.5.2
+numpy==1.22.0
+opencv-python==4.2.0.32
+dlib==19.17.0
+
+# For Python 3.10 on Windows 64-bit
+pip install https://github.com/z-mahmud22/Dlib_Windows_Python3.x/raw/main/dlib-19.22.99-cp310-cp310-win_amd64.whl
+# Uninstall current version
+pip uninstall scipy
+
+# Install a stable version
+pip install scipy==1.11.4
